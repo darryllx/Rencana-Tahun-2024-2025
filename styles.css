@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  background-color: #ffffff;
+}
+
+/* Index.html START */
+
+.form-container {
+  height: 80vh;
+  margin: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container h3 {
+  color: #696969;
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.form-container p {
+  font-size: 32px;
+  color: #303030;
+  margin-bottom: 24px;
+}
+
+.input-container {
+  display: flex;
+  gap: 16px;
+}
+
+input[type="text"] {
+  width: 280px;
+  height: 64px;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #bfbfbf;
+  border-radius: 8px;
+}
+
+input[type="text"] :focus {
+  border: 1px solid #c51a1a;
+}
+
+.kirimBtn {
+  width: 80px;
+  height: 64px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #f76ebc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* index.html end */
+
+/* questionPage.html start */
+
+.questionPage-container {
+  height: 80vh;
+  margin: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionPage-container h3 {
+  color: #696969;
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.questionPage-container p {
+  font-size: 32px;
+  color: #303030;
+  margin-bottom: 24px;
+}
+
+.button-container {
+  display: flex;
+  gap: 16px;
+}
+
+.trueBtn {
+  width: 120px;
+  height: 48px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #303030;
+  background-color: #89f652;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.falseBtn {
+  width: 120px;
+  height: 48px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #fc4100;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* homePage.html START */
+
+.home-container {
+  min-height: 100vh;
+  margin: 0px 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.music-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 80px;
+  border: none;
+  cursor: pointer;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.music-btn:hover {
+  background-color: #bfbfbf;
+}
+
+
+#displayNamaPanggilan {
+  color: #f76ebc;
+}
+
+.title-container h2 {
+  color: #303030;
+  font-size: 24px;
+}
+
+.title-container p {
+  color: #696969;
+  font-size: 16px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 512px;
+  height: 420px;
+  justify-content: space-between;
+  border-radius: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 70%;
+  border-radius: 24px 24px 0px 0px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-title h3 {
+  color: #303030;
+  font-size: 20px;
+}
+
+.card-title p {
+  color: #696969;
+  font-size: 14px;
+}
+
+.card-content {
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  color: #3b3b3b;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
